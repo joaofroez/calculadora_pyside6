@@ -1,0 +1,16 @@
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).parent.parent
+FILES_DIR = ROOT_DIR / 'files'
+WINDOW_ICON_PATH = FILES_DIR / 'logo_cal.png'
+HISTORY_ICON_PATH = FILES_DIR / 'logo_history.png'
+
+BIG_FONT_SIZE = 40
+MEDIUM_FONT_SIZE = 24
+SMALL_FONT_SIZE = 16
+TEXT_MARGIN = 15
+MINIMUM_WIDTH = 200
+
+PRIMARY_COLOR = '#1e81b0'
+DARKER_PRIMARY_COLOR = '#16658A'
+DARKEST_PRIMARY_COLOR = '#115270'
