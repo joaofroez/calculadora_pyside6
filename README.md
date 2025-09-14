@@ -3,6 +3,8 @@
 Uma calculadora de desktop simples e funcional desenvolvida em **Python** com a biblioteca **PySide6** para a interface gráfica.  
 O projeto inclui funcionalidades básicas, potenciação e um histórico de operações interativo.
 
+<img width="355" height="580" alt="image" src="https://github.com/user-attachments/assets/96c4c313-8739-4c8f-9fca-6ec746749ead" />
+
 ---
 
 ## ✨ Funcionalidades Principais
@@ -47,4 +49,6 @@ O projeto está organizado nos seguintes arquivos principais para manter o códi
 - [ ] Implementar um sistema de temas (claro, escuro) com a opção de troca em tempo real.  
 - [ ] Adicionar mais atalhos de teclado para todas as operações.  
 - [ ] Melhorar o tratamento de números muito grandes ou pequenos (notação científica).  
-- [ ] Empacotar a aplicação em um executável para facilitar a distribuição (usando **PyInstaller** ou **cx_Freeze**).  
+- [ ] Empacotar a aplicação em um executável para facilitar a distribuição (usando **PyInstaller** ou **cx_Freeze**).
+      
+
