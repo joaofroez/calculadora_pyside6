@@ -45,7 +45,7 @@ O projeto está organizado nos seguintes arquivos principais para manter o códi
 
 # 🔮 Melhorias Futuras
 
-- [ ] Adicionar mais operações matemáticas (raiz quadrada, porcentagem, etc.).  
+- [ ] Adicionar mais operações matemáticas (raiz quadrada, porcentagem, parêntese, etc.).  
 - [ ] Implementar um sistema de temas (claro, escuro) com a opção de troca em tempo real.  
 - [ ] Adicionar mais atalhos de teclado para todas as operações.  
 - [ ] Melhorar o tratamento de números muito grandes ou pequenos (notação científica).  
