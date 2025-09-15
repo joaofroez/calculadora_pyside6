@@ -1,6 +1,5 @@
 from PySide6.QtWidgets import QApplication
 from PySide6.QtGui import QIcon
-from PySide6.QtCore import QSize
 from variables import WINDOW_ICON_PATH
 from main_window import MainWindow
 from display import Display
