@@ -1,5 +1,4 @@
-from PySide6.QtWidgets import QApplication, QLabel, QMainWindow, QVBoxLayout, QWidget, QMessageBox, QHBoxLayout, QFrame, QGridLayout
-from PySide6.QtCore import Qt
+from PySide6.QtWidgets import QMainWindow, QVBoxLayout, QWidget, QMessageBox, QHBoxLayout, QGridLayout
 
 class MainWindow(QMainWindow):
     def __init__(self, /, parent: QWidget | None = None, *args, **kwargs) -> None:

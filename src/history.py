@@ -1,5 +1,5 @@
-from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QLabel, QFrame, QListView, QAbstractItemView
-from PySide6.QtCore import QRect, QSize, Qt, QMargins, QStringListModel, QAbstractListModel, QModelIndex
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QFrame, QListView, QAbstractItemView
+from PySide6.QtCore import Qt, QAbstractListModel, QModelIndex
 
 class HistoryFrame(QFrame):
     def __init__(self, /, parent: QWidget, *args, **kwargs):

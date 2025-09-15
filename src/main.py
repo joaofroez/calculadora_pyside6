@@ -1,12 +1,12 @@
-from PySide6.QtWidgets import QApplication, QHBoxLayout, QFrame, QLabel, QListView
+from PySide6.QtWidgets import QApplication
 from PySide6.QtGui import QIcon
-from PySide6.QtCore import Qt, QStringListModel
+from PySide6.QtCore import QSize
 from variables import WINDOW_ICON_PATH
 from main_window import MainWindow
 from display import Display
 from info import Info
 from style import setupTheme
-from buttons import Button, ButtonsGrid, HistoryButton
+from buttons import ButtonsGrid, HistoryButton
 from history import HistoryFrame, HistoryList
 import sys
 
@@ -31,6 +31,7 @@ if __name__ == '__main__':
     window.addWidgetToVLayout(display)
     window.addLayoutGridToVLayout(buttonsGrid)
     
+   
     window.ajustFixedSize()
     window.show()
     setupTheme(app)
